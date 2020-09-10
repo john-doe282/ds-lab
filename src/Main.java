@@ -35,8 +35,7 @@ public class Main {
         Car car = new Car(model, "SUV", 23, owner);
         return car;
     }
-
-    private final static MarketPlace marketPlace = new MarketPlace();
+    
 
     public static void main(String[] args) {
         final MarketPlace marketPlace = new MarketPlace();
